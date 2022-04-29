@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a1eab65a7a314108acfa40a3ffb5e41f" Name="Diagram1" ZoomLevel="83">
+        <EntityTypeShape EntityType="DBModel.Anket" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Cevap" Width="1.5" PointX="3.375" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Kategori" Width="1.5" PointX="0.875" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Kullanici" Width="1.5" PointX="0.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Secenek" Width="1.5" PointX="5.375" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Soru" Width="1.5" PointX="5.125" PointY="3" IsExpanded="true" />
+        <AssociationConnector Association="DBModel.FK_Anket_Kategori" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK_Anket_Kullanici" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK_Soru_AnketSoru" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK_Cevap_KullaniciCevap" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK_Cevap_SecilenCevap" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK_Secenek_SoruSecenek" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
